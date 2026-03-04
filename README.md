@@ -1,7 +1,7 @@
 # Social Data Analytics – Task 1
 
 A Walmart product-review scraper built with Selenium and `undetected_chromedriver`.
-It visits Walmart review pages, collects up to 150 reviews per product, and saves everything locally as CSV files for downstream analysis.
+It visits Walmart review pages, collects reviews for products, and saves everything locally as CSV files for downstream analysis.
 
 ---
 
@@ -30,11 +30,7 @@ pip install -r requirements.txt
 
 ## Getting Started
 
-Open the notebook and run the cells from top to bottom:
-
-```bash
-jupyter notebook task1.ipynb
-```
+Open the notebook and run the cells from top to bottom.
 
 Before running, you can edit the `PRODUCT_URLS` list in the notebook to point at any Walmart review pages you want to scrape, and adjust `MAX_REVIEWS_PER_PRODUCT` if needed.
 
