@@ -42,9 +42,6 @@ build/
 dist/
 *.egg-info/
 
-# Dataset folder (optional)
-
-data/
 
 # Temporary files
 
